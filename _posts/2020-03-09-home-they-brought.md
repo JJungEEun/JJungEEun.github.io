@@ -1,6 +1,8 @@
 ---
 layout: post
-title: Home They Brought Her Warrior Dead 
+title: "python6"
+categories: [python]
+tags: [python]
 ---
 
 Home they brought her warrior dead:  

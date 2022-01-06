@@ -1,10 +1,10 @@
 ### your site title here
 
-title: Your Name
+title: Jung Eun
 description: subtitle | affiliations | motto
 
-baseurl: /JJungEEun #name of GitHub repository
-url: "jjungeeun.github.io" #custom url to be used instead of GitHub repository
+baseurl:   #name of GitHub repository
+url: "https://jjungeeun.github.io/" #custom url to be used instead of GitHub repository
 email: #
 
 
