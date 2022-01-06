@@ -3,7 +3,11 @@
 title: Jung Eun
 description: subtitle | affiliations | motto
 
+<<<<<<< HEAD
 baseurl:   #name of GitHub repository
+=======
+baseurl: #name of GitHub repository
+>>>>>>> 3b65a2ec4aeb1e82facd2acb3d8f5b1d03ed0ee8
 url: "https://jjungeeun.github.io/" #custom url to be used instead of GitHub repository
 email: #
 
