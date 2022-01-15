@@ -1,6 +1,6 @@
 ---
 layout: category
-title: "algorithm"
-permalink: '/blog/AG'
+title: "CT"
+permalink: '/blog/CT'
 ---
 

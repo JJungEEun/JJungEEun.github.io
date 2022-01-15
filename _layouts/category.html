@@ -18,8 +18,10 @@ layout: default
 
 <div class="article-list">
   {% assign category = page.category | default: page.title %}
+
+  <h1>{{category}} - Table Of Contents</h2>
   {% for post in site.categories[category] %}
-    <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+    <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3> 
     <small>{{ post.date | date_to_string }}</small> 
     <p>{{post.excerpt | strip_html}}</p>
   {% endfor %}
