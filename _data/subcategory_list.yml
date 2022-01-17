@@ -1,0 +1,24 @@
+#Tihs file defines all categories that live within a parent category
+
+
+subcategory-one:
+  name: Algorithm
+  parent-category: using-subcategories
+  parent-category-name: Using Subcategories
+  description: This is your first subcategory!
+subcategory-two:
+  name: Data Structure
+  parent-category: using-subcategories
+  parent-category-name: Using Subcategories
+  description: This is your second subcategory!
+subcategory-three:
+  name: Code reviews
+  parent-category: using-subcategories
+  parent-category-name: Using Subcategories
+  description: This is your third subcategory!
+
+subcategory-forth:
+  name: Subcategory Forth
+  parent-category: algorithm-and-data-structure
+  parent-category-name: Alogorithm and Data structure
+  description: This is your third subcategory!
