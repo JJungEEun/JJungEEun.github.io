@@ -1,0 +1,12 @@
+#This file defines all the categories you are using
+
+
+algorithm-and-data-structure:
+  name: Alogorithm and Data structure
+  description: study for coding test
+machine-learning:
+  name: Machine Learning
+  description: Welcome to Odin, time to get started
+customizing-odin:
+  name: Customizing Odin
+  description: Welcome to Odin, time to get started

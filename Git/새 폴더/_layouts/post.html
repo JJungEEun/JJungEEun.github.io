@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<h1 class="post-headline">{{page.title}}</h1>
+<p class="meta"><small>{{page.date | date: '%B %d, %Y'}}</small></p>
+
+
+{{content}}
+<!-- <div>
+    <div id="table-of-contents">
+      {% include toc.html %}
+    </div>
+    <div id="markdown-content">
+      {{ content }}
+    </div>
+  </div> -->
+
+<!-- Comments only for posts -->
+{% if page.path contains '_posts' %}
+    {% if site.disqus-shortname %}
+        {% include disqus.html %}
+    {% endif %}
+{% endif %}
