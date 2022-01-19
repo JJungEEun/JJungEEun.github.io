@@ -1,0 +1,7 @@
+<div class="toc-div py-3">
+    {% if page.toc %}
+      <h3 class="toc-title">Table of Contents</h3>
+    {% endif %}
+    <ul class="toc"><li><a href="#">맨위로</a></li></ul>
+    {% include toc.html html=content class="toc" %}
+  </div>

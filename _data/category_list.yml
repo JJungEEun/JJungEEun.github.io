@@ -1,15 +1,12 @@
 #This file defines all the categories you are using
 
 
-using-subcategories:
-  name: Using Subcategories
-  description: Learn to use subcategories!
+python:
+  name: Python
+  description: study for python
 machine-learning:
   name: Machine Learning
-  description: Welcome to Odin, time to get started
-customizing-odin:
-  name: Customizing Odin
-  description: Welcome to Odin, time to get started
-algorithm-and-data-structure:
-  name: Alogorithm and Data structure
+  description: study for machine learning
+coding-test:
+  name: Coding Test
   description: study for coding test

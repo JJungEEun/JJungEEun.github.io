@@ -54,10 +54,10 @@ nav_item_three: #
 nav_item_three_link: #
 
 nav_button: Return to Home
-nav_button_link: https://jjungeun.github.io/odin/
+nav_button_link: https://jjungeun.github.io
 
 # More Help
-help_one_title: Odin Bugs
+help_one_title: Odin
 help_one_content: If you find any bugs or problems with this theme, please open an issue over on Github.
 help_one_button: Github
 help_one_link: https://github.com/TeaGuns/odin/issues
@@ -82,7 +82,7 @@ plugins:
 # their entries' file path in the `include:` list.
 #
 
-
+use_math: true
 sass:
   sass_dir:          _scss
   style:            :compressed

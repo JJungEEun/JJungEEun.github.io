@@ -1,0 +1,46 @@
+{% assign page_category = site.data.category_list[page.category] %}
+
+<div class="column col-12 text-center m-16">
+  <h4>More</h4>
+</div>
+
+
+<div class="card-box column col-6 col-sm-12 p-8 mb-8 col-mx-auto">
+    <div class="card-body">
+        <h3 class="card-title text-center">Other Posts in this category</h3>
+    </div>
+    <ul class="list-group list-group-flush">
+        {% for post in site.categories[page.category] limit: 5 %}
+          <li class="list-group-item">
+            <time datetime="{{ page.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time> 
+            &raquo;
+            <a class="card-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    <div class="card-body">
+    </div>
+</div>
+
+<div class="column col-6 col-sm-12 p-8 mb-8 col-mx-auto">
+    <div class="card-box card-body">
+        {% if site.categories.size > 0 %}
+          <h3 class="card-title text-center">Categories</h3>
+          <div class="category-tags d-flex flex-wrap justify-content-center px-5">
+            {% for category in site.categories %}
+              {% assign category_name = category | first %}
+              {% capture anchor_url %}{{ category_name | slugify }}{% endcapture %}
+              {% assign category_name_list = category_name | split: ' ' %}
+              {% capture capitalized_category_name %}
+                {% for word in category_name_list %}
+                  {{ word | capitalize }}
+                {% endfor %}
+              {% endcapture %}
+              <a class="card-link my-1 py-2 px-3" href="{{ anchor_url | relative_url }}">
+                {{ capitalized_category_name }}
+              </a>
+            {% endfor %}
+          </div>
+        {% endif %}
+      </div>
+</div>
