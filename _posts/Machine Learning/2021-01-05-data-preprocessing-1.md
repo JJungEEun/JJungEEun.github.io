@@ -30,7 +30,7 @@ toc: true
 
 데이터셋에서 해당 훈련 샘플(행)이나 특성(열)을 완전히 제거하는 것이다. 결측치 처리에서 방법 중 가장 간단하지만 이는 큰 단점도 가지고 있다. 너무 많은 결측치가 있는 경우 이를 모두 제거하면 안정된 분석이 불가능해진다. 또는 너무 많은 특성 열을 제거하면 분류기가 클래스를 잘 구분하는 데 필요한 중요한 정보를 잃을 수도 있다.
 
-```bash 
+```ruby
 DataFrame.dropna(axis=0, how='any', thresh=None, subset=None, inplace=False)
 ```
 
@@ -43,7 +43,7 @@ DataFrame.dropna(axis=0, how='any', thresh=None, subset=None, inplace=False)
     <li>mode</li>
 </ul>
 
-```bash 
+```ruby
 SimpleImputer(missing_values=nan, strategy='mean', fill_value=None, verbose=0, copy=True, add_indicator=False)
 DataFrame.fillna(value=None, method=None, axis=None, inplace=False, limit=None, downcast=None)
 ```
@@ -94,7 +94,7 @@ IQR 방식은 Q1-1.5XIQR이하 거나 Q3+1.5XIQR이상인 경우 극단치로 �
 최소-최대 정규화는 모든 특성의 스케일이 [0, 1] 범위에 맞추는 것이다. 하지만 최소-최대 정규화는  이상치에 많은 영향을 받는다.
 
 ![Image Alt 텍스트](/assets/images/ml01_07.png)
-```bash
+```ruby
 from sklearn.preprocessing import MinMaxScaler
 mms = MinMaxScaler()
 X_train_norm = mms.fit_transform(X_train)
@@ -106,7 +106,7 @@ X_test_norm = mms.transform(X_test)
 표준화는 많은 머신러닝 알고리즘, 특히 경사 하강법과 같은 최적화 알고리즘에서 널리 사용된다. 표준화를 사용하면 특성의 평균을 0에 맞추고 표준 편차를 1로 만들어 정규 분포와 같은 특징을 가지도록 만든다. 이는 가중치를 쉽게 학습 할 수 있게 만든다. 또한 표준화는 이상치 정보가 유지되기 때문에 제한된 범위로 데이터를 조정하는 최소-최대 스케일 변환에 비해 알고리즘이 이상치에 덜 민감하다.
 
 ![Image Alt 텍스트](/assets/images/ml01_08.png)
-```bash
+```ruby
 from sklearn.preprocessing import StandardScaler
 stdsc = StandardScaler()
 X_train_std = stdsc.fit_transform(X_train)
@@ -119,7 +119,7 @@ X_test_std = stdsc.transform(X_test)
 RobustScaler는 이상치가 많이 포함된 작은 데이터셋을 다룰 때 도움이 된다. 데이터셋이 과대적합이 되기 쉬울 때 사용하는 것이 좋다. 특성 열마다 독립적으로 작용하며 중간값을 뺀 다음 데이터셋의 1사분위수와 3사분위수(25%와 75%)를 사용하여 데이터셋의 스케일을 조정한다. 그렇기 때문에 극단적인 값과 이상치의 영향을 덜 받는다.
 
 ![Image Alt 텍스트](/assets/images/ml01_09.png)
-```bash
+```ruby
 from sklearn.preprocessing import RobustScaler
 rbs = RobustScaler()
 X_train_robust = rbs.fit_transform(X_train)

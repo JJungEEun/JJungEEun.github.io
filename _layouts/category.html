@@ -4,7 +4,6 @@ layout: default
 {% include header.html %}
 
 {% assign page_category = site.data.category_list[page.category] %}
-{% assign page_subcategory = site.data.subcategory_list[page.subcategory] %}
 
 <div class="container-full">
   <div class="container grid-xl">
@@ -34,10 +33,11 @@ layout: default
                 <div class="card-body text-center my-4">
                   <h5 class="text-bold">{{ page_subcategory.name }}</h5>
                       
-                  {% if subcategory[1].size == 1 %}
-                  <p class="m-0">{{ category | last | size }} article</p>
+                  {% if site.categories[subcategory_name].size == None %}
+                  <p class="m-0">{{ 0 }} article</p>
                   {% else %}
-                  <p class="m-0">{{category | last | size  }} articles</p>
+                  <p class="m-0">{{ site.categories[subcategory_name].size }} articles</p>
+
                   {% endif %}
                 </div>
               </div>

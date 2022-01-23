@@ -28,11 +28,11 @@ content_type: Knowledge Base #Define whether this is a knowledge base, help cent
 use_authors: true #Set this to false to disable showing post authors
 
 brand_logo: logo.png
-brand_name: Odin
-header: How can we help you?
-subheader: Support and documentation for Odin
+brand_name: Jung Eun
+header: Jung Eun
+subheader: the sum of small efforts - repeated day in and day out
 
-meta_image: odin-meta.png
+meta_image: 
 
 # Social Links
 twitter_username: 
@@ -54,18 +54,17 @@ nav_item_three: #
 nav_item_three_link: #
 
 nav_button: Return to Home
-nav_button_link: https://jjungeun.github.io
+nav_button_link: https://jjungeeun.github.io/
 
 # More Help
-help_one_title: Odin
-help_one_content: If you find any bugs or problems with this theme, please open an issue over on Github.
-help_one_button: Github
-help_one_link: https://github.com/TeaGuns/odin/issues
-
-help_two_title: Twitter
-help_two_content: Feel free to tweet at me if you have suggestions for Odin. Or if you just want to say hi.
+help_one_title: About
+help_one_content: If you want to know me more, please open this page.
+help_one_button: About
+help_one_link: about
+help_two_title: Project
+help_two_content: If you are curious about my project, please open this page.
 help_two_button: Twitter
-help_two_link: https://twitter.com/theteaguns
+help_two_link: 
 
 # Build settings
 theme: minima

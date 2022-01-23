@@ -130,6 +130,7 @@ address {
 
 b,
 strong {
+  color: blue;
   font-weight: inherit;
 }
 
@@ -139,7 +140,13 @@ strong {
 
 b,
 strong {
+  color: blue;
   font-weight: bolder;
+}
+
+ul li strong {
+  color: black;
+  font-weight: bold;
 }
 
 /**

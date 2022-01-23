@@ -12,7 +12,7 @@ algorithm:
   parent-category-name: Coding Test
   description: Algorithmn
 code-reviews:
-  name: Code reviews
+  name: Code Reviews
   parent-category: coding-test
   parent-category-name: Coding Test
   description: Code Reviews
