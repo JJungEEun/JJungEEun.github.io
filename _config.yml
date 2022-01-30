@@ -63,8 +63,9 @@ help_one_button: About
 help_one_link: about
 help_two_title: Project
 help_two_content: If you are curious about my project, please open this page.
-help_two_button: Twitter
+help_two_button: Project
 help_two_link: 
+
 
 # Build settings
 theme: minima

@@ -10,3 +10,6 @@ machine-learning:
 coding-test:
   name: Coding Test
   description: study for coding test
+# project:
+#   name: Project
+#   description: project
