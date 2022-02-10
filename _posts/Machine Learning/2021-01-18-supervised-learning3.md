@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: post
 title: "Supervised Learning: KNN, SVM"
 date: 2019-11-05 08:44:38 -0400
@@ -11,4 +11,4 @@ toc: true
 
 
 
-
+ -->

@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: post
 title: "Supervised Learning: Linear Regression, Logistic Regression"
 date: 2019-11-05 08:44:38 -0400
@@ -18,4 +18,4 @@ toc: true
 **퍼셉트론**은 MCP 뉴런 모델을 기반으로 한 알고리즘이다. 특정 샘플의 최종 입력이 사전에 정의된 임계값 보다 크면 클래스 1로 예측하고, 그렇지 않으면 클래스 -1로 예측한다. 퍼셉트론 알고리즘에서 결정함수는 **단위 계단 함수**를 변형한 것이다. 
 
  $\phi(z)=\begin{cases}1&z\ge\theta\mbox{ 일 때} \\ -1&\mbox{그 외}\end{cases}$
-$\;\;\;\;\;$
+$\;\;\;\;\;$ -->
