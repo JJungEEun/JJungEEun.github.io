@@ -78,7 +78,7 @@ type(b)
 ```
 실제로 위와 같이 딕셔너리를 한 번 더 래핑한 collections.Counter 클래스를 갖는다.
 ```
-b.most_coomon(2)
+b.most_common(2)
 >>> [(5,3),(6,2)]
 ```
 most_common()을 사용하면 Counter 객체에서 가장 빈도 수가 높은 요소를 추출할 수 있다.
