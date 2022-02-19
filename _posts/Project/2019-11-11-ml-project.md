@@ -44,6 +44,10 @@ short-description: 교통사고 발생에 관여하는 주요 변수를 파악�
 
 ---
 
+#### REWARD
+- 머신러닝 기초 스터디 2팀_[전반기 스터디 1등]( https://docs.google.com/viewer?url=https://github.com/JJungEEun/JJungEEun.github.io/blob/main/assets/file/%ED%85%8C%EC%9D%B4%EB%B8%8C%20%EC%A0%84%EB%B0%98%EA%B8%B0%20%EC%9A%B0%EC%88%98%20%EC%8A%A4%ED%84%B0%EB%94%94_%EC%A0%95%EC%9D%80.pdf?raw=T)
+- 교통사고 건수 예측_[후반기 프로젝트 우수상](https://docs.google.com/viewer?url=https://github.com/JJungEEun/JJungEEun.github.io/blob/main/assets/file/%EA%BF%948%EB%A1%9C%EC%9A%B0_%EC%A0%95%EC%9D%80.pdf?raw=T)
+
 Click to view the entire project
 <p><a href="" class="btn">교통사고 건수 예측모델.pdf</a></p>
 

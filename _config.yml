@@ -44,11 +44,11 @@ instagram_username: eun_oia_
 
 
 # Navivation
-nav_item_one: Github
-nav_item_one_link: https://github.com/JJeungEEun
+nav_item_one: About
+nav_item_one_link: /about
 
-nav_item_two: Twitter
-nav_item_two_link: https://twitter.com/
+nav_item_two: Project
+nav_item_two_link: /project
 
 nav_item_three: #
 nav_item_three_link: #
