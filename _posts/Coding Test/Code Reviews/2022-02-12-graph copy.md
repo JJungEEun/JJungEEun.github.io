@@ -1,0 +1,131 @@
+---
+layout: post
+title: "Graph(LeetCode)"
+date: 2022-02-17 08:44:38 -0400
+category: code-reviews
+subcategory: 
+author: eun
+short-description: (leetcode 200,)
+toc: true
+---
+
+그래프의 개념이 궁금하다면?      
+<a href="{{ site.url }}{{ site.baseurl }}/data-structure/deque/">**Deque&Queue**</a>
+
+문제의 더 자세한 부분이 궁금하다면 leet code를, 더 다양한 나의 코드가 궁금하다면 My code를 누르면 된다 :-)
+
+
+
+#### lc 200. Number of Islands
+![Image Alt 텍스트](/assets/link.png){: width="50" height="50"} <a href="https://leetcode.com/problems/design-circular-deque/">leetcode</a>  /  <a href="https://github.com/JJungEEun/CodingTest/blob/main/interviews/chap12_%EA%B7%B8%EB%9E%98%ED%94%84/chap12_32_%EC%84%AC%EC%9D%98%20%EA%B0%9C%EC%88%98.ipynb">  My code</a>
+
+Given an m x n 2D binary grid grid which represents a map of '1's (land) and '0's (water), return the number of islands.
+
+An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume all four edges of the grid are all surrounded by water.
+
+```
+Example 1:
+Input: grid = [
+  ["1","1","1","1","0"],
+  ["1","1","0","1","0"],
+  ["1","1","0","0","0"],
+  ["0","0","0","0","0"]
+]
+Output: 1
+```
+```
+Example 2:
+Input: grid = [
+  ["1","1","0","0","0"],
+  ["1","1","0","0","0"],
+  ["0","0","1","0","0"],
+  ["0","0","0","1","1"]
+]
+Output: 3
+```
+---
+
+##### Solution
+1. DFS 알고리즘: 동서남북 방향이 연결된 그래프라 가정
+2. 각 방향을 재귀로 확인
+3. 확인한 노드는 0으로 설정: 더 이상 육지가 아닌 것(중복 계산 방지)
+
+
+##### Code
+**Code**
+``` python
+def numIslands(self, grid):
+    
+    def dfs(i, j):
+        if i<0 or j<0 or i>=len(grid) or j>=len(grid[0]) or grid[i][j] != '1':
+            return 
+        grid[i][j] = 0
+        
+        dfs(i+1, j)
+        dfs(i-1, j)
+        dfs(i, j-1)
+        dfs(i, j+1)
+        
+    count = 0
+    for i in range(len(grid)):
+        for j in range(len(grid[i])):
+            if grid[i][j] == '1':
+                dfs(i, j)
+                count += 1
+                
+    return count
+```
+
+Time Submitted | Status | Runtime | Memory
+---|---|---|---|
+02/18/2022 16:40|Accepted|300ms|29MB
+
+---
+<br>
+
+### lc 17. Letter Combinations of a Phone Number
+![Image Alt 텍스트](/assets/link.png){: width="50" height="50"} <a href="https://leetcode.com/problems/letter-combinations-of-a-phone-number/">leetcode</a>  /  <a href="https://github.com/JJungEEun/CodingTest/blob/main/interviews/chap12_%EA%B7%B8%EB%9E%98%ED%94%84/chap12_33_%EC%A0%84%ED%99%94%20%EB%B2%88%ED%98%B8%20%EB%AC%B8%EC%9E%90%20%EC%A1%B0%ED%95%A9.ipynb">  My code</a>
+
+Given a string containing digits from 2-9 inclusive, return all possible letter combinations that the number could represent. Return the answer in any order.
+
+A mapping of digit to letters (just like on the telephone buttons) is given below. Note that 1 does not map to any letters.
+
+```
+Example 1:
+Input: digits = "23"
+Output: ["ad","ae","af","bd","be","bf","cd","ce","cf"]
+```
+```
+Example 2:
+Input: digits = ""
+Output: []
+```
+```
+Example 3:
+Input: digits = "2"
+Output: ["a","b","c"]
+```
+
+##### Solution
+1. 숫자에 해당하는 모든 문자열 반복
+
+##### Code
+**Code**
+```python
+def letterCombinations(digits):
+    k = {"2": "abc", "3":"def", "4":"ghi", "5":"jkl", "6":"mno", "7":"pqrs", "8":"tuv", "9":"wxyz"}
+
+    if (len(digits)==0):
+        return []
+    resus = ['']
+
+    for d in digits:
+        select = []
+        for c in k[d]:
+            select = select +[r + c for r in resus]
+
+        resus = select
+    return (resus)
+```
+
+---

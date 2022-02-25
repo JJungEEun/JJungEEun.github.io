@@ -55,10 +55,12 @@ $link-color-light: lighten($link-color, 10%) !default;
 
 $base-font-family: "Sora", sans-serif;
 // "Muli", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto !default;
-$serif-font-family:"Inter", "Sora", sans-serif;
+$serif-font-family: "Inter", "Sora", sans-serif;
 // Georgia, Cambria, "Times New Roman", Times, serif;
-$mono-font-family: "SF Mono", "Segoe UI Mono", "Roboto Mono", Menlo, Courier, monospace !default;
-$fallback-font-family: "Helvetica Neue", sans-serif !default;
+$mono-font-family:  "Sora", sans-serif;
+// "SF Mono", "Segoe UI Mono", "Roboto Mono", Menlo, Courier, monospace !default;
+$fallback-font-family:  "Sora", sans-serif;
+// "Helvetica Neue", sans-serif !default;
 $cjk-zh-hans-font-family: $base-font-family, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", $fallback-font-family !default;
 $cjk-zh-hant-font-family: $base-font-family, "PingFang TC", "Hiragino Sans CNS", "Microsoft JhengHei", $fallback-font-family !default;
 $cjk-jp-font-family: $base-font-family, "Hiragino Sans", "Hiragino Kaku Gothic Pro", "Yu Gothic", YuGothic, Meiryo, $fallback-font-family !default;
