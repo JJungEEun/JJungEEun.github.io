@@ -27,7 +27,8 @@ layout: default
         <h2 class="text-light text-bold">{{ page_subcategory.name }}</h2>
         <p class="text-light mb-2">{{ page_subcategory.description }}</p>
       </div>
-      {% for post in site.categories[page.subcategory] %}
+      {% assign sorted_pages = site.categories[page.subcategory] | sort:"order" %}
+      {% for post in sorted_pages %}
         {% include article-card.html %}
       {% endfor %}
       {% include more-help.html %}
