@@ -25,7 +25,7 @@
         {% if site.categories.size > 0 %}
           <h3 class="card-title text-center">Categories</h3>
           <div class="category-tags d-flex flex-wrap justify-content-center px-5">
-            {% for category in site.categories %}
+            {% for category in site.categories limit: 3 %}
               {% assign category_name = category | first %}
               {% capture anchor_url %}{{ category_name | slugify }}{% endcapture %}
               {% assign category_name_list = category_name | split: ' ' %}
