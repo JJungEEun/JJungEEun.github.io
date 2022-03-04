@@ -7,6 +7,9 @@ python:
 machine-learning:
   name: Machine Learning
   description: study for machine learning
+deep-learning:
+  name: Deep Learning
+  description: study for deep learning
 coding-test:
   name: Coding Test
   description: study for coding test
