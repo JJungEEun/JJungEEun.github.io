@@ -33,7 +33,16 @@
     </li>
     {% endif %}
     <li>
-      <a href="{{ site.nav_button_link }}" style="height: auto;" class="btn btn-lg btn-outline py-2">{{ site.nav_button }}</a>
+      <div class="site-category">
+        <span style="height: auto" class="dropbtn btn btn-lg btn-outline py-2">{{ site.nav_button }}</span>
+        <div class="dropdown-content">
+          <a href="/python/">python</a>
+          <a href="/machine-learning/">machine learning</a>
+          <a href="/deep-learning/">deep learning</a>
+          <a href="/coding-test/">coding test</a>
+        </div>        
+      </div>
+   
     </li>
   </ul>
 </nav>

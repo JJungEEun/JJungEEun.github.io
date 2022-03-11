@@ -50,11 +50,11 @@ nav_item_one_link: /about
 nav_item_two: Project
 nav_item_two_link: /project
 
-nav_item_three: #
-nav_item_three_link: #
+nav_item_three: Home
+nav_item_three_link: https://jjungeeun.github.io/
 
-nav_button: Return to Home
-nav_button_link: https://jjungeeun.github.io/
+nav_button: Category
+nav_button_link: 
 
 # More Help
 help_one_title: About

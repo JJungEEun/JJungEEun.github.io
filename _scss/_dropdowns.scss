@@ -15,7 +15,6 @@
       }
     }
   }
-
   .menu {
     animation: slide-down .15s ease 1;
     display: none;
@@ -62,4 +61,38 @@
       border-top-right-radius: $border-radius;
     }
   }
+}
+
+.site-category{
+  position: relative;
+  display: inline-block;
+  width: auto;
+  box-sizing: border-box;
+}
+
+.dropdown-content{
+  background: $secondary-color;
+  border-top: 1px solid $primary-color;
+  display: none;
+  margin: auto;
+  padding: 0;
+  text-align: center;
+  clear:left;
+  position: absolute;
+  z-index : 1;
+  box-sizing: border-box;
+}
+
+.dropdown-content a{
+  list-style: none;
+  line-height: 1.5;
+  margin: 0 auto;
+  padding: 0;
+  width: 150px;
+  display: block;
+  
+}
+
+.site-category:hover .dropdown-content{
+  display: block;
 }

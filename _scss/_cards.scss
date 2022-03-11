@@ -16,6 +16,8 @@
 }
 
 .card-box{
+  justify-content: center;
+  flex-flow: row-reverse wrap;
   background-color: white !important;
 }
 .card {
@@ -78,6 +80,8 @@
 
   .card-body {
     flex: 1 1 auto;
+    flex-flow: row-reverse wrap;
+    word-break: break-all;
     &.card-body-h-center {
       display: flex;
       align-items: center;
