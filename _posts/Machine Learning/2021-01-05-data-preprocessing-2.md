@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: post
 title: "Data Preprocessing - Categorical Data"
 date: 2019-11-05 08:44:38 -0400
@@ -6,7 +6,7 @@ category: machine-learning
 author: eun
 short-description: 범주형 데이터 전처리 과정
 toc: true
----
+--- -->
 <br>
 <hr>
 
