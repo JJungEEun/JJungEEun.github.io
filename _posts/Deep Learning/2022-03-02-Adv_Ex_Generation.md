@@ -54,7 +54,8 @@ Adversarial Examples은 현실 세계에서도 존재한다.
 
 <br>
 
-#### 2. Approach
+
+<!-- #### 2. Approach
 ---
 
 <p align="center"><img src="/assets/images/AdvPatch_02.PNG"  width="60%" height="60%"></p>
@@ -75,7 +76,9 @@ Adversarial Examples은 현실 세계에서도 존재한다.
 
 <p align="center"><img src="/assets/images/AdvPatch_04.PNG"  width="60%" height="60%"></p>
 
-<br>
+<br> -->
+
+
 
 #### 3. Experimental Results
 ---
