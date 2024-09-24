@@ -1,0 +1,261 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    position: left # position of the sidebar : left or right
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Eun Jung
+    tagline: AI security researcher
+    avatar: eun.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: wjddms0926@gmail.com
+    phone: +82 010 9263 6909
+    timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
+    citizenship:
+    # website: https://example.com/ # Include the full website URL, including "http://" or "https://".
+    linkedin: wjddms0926
+    # xing: alandoe
+    github: jjungeeun
+    # telegram: # add your nickname without '@' sign
+    # gitlab:
+    # bitbucket:
+    # twitter: '@jekyllrb'
+    # stack-overflow: # Number/Username, e.g. 123456/alandoe
+    # codewars:
+    # goodreads: # Number-Username, e.g. 123456-alandoe
+    # mastodon:  # Please include your full Mastodon link here.
+    # hackerrank: # Please provide your HackerRank username.
+    # leetcode: # Pleas/e provide your LeetCode username.
+    # pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
+
+    languages:
+      title: Languages
+      info:
+        - idiom: Korean
+          level: Native
+
+        - idiom: English
+          level: Professional
+
+        - idiom: Chinese
+          level: basic
+
+    interests:
+      title: Interests
+      info:
+        - item: AI, Deep Learning
+          link:
+
+        - item: Security
+          link:
+
+        - item: 
+          link:
+
+career-profile:
+    title: Career Profile
+    summary: |
+      Hello! I’m Eun Jung, a Master’s student in the [Electrical and Computer Engineering department](https://ice.skku.edu/eng_ice/programs/departments/computer_intro.do) 
+      at [Sungkyunkwan University](https://www.skku.edu/eng/index.do), advised by Professor [Hyoungshick Kim](https://seclab.skku.edu/people/hyoungshick-kim/). 
+      I am interested in AI security.
+
+research-interest:
+    title: Research Interest
+    summary: |
+     My research focuses on the security of AI systems, with particular attention to vulnerabilities in deep learning models and large language models (LLMs). 
+     I am interested in adversarial attacks, aiming to improve the robustness and reliability of AI systems in real-world applications.
+
+education:
+    title: Education
+    info:
+      - degree: MSc in Electrical and Computer Engineering
+        university: Sungkyunkwan University(SKKU)
+        time: 2024 - ing
+        details: |
+          Describe your study here lorem ipsum dolor sit amet, consectetuer
+          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+          sociis natoque penatibus et magnis dis parturient montes, nascetur
+          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+          pretium quis, sem.
+            - Bullet point
+            - Bullet point
+      - degree: BSc in Data Technology (Software Convergence)
+        university: Myongi University
+        time: 2019 - 2024
+        details: |
+          Describe your study here lorem ipsum dolor sit amet, consectetuer
+          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+          sociis natoque penatibus et magnis dis parturient montes, nascetur
+          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+          pretium quis, sem.
+            - Computer Scinece
+            - Data Analysis
+            - Big Data Programming
+
+experiences:
+    title: Experiences
+    info:
+      - role: Undergraduate Research Trainees
+        time: 2023.01 ~ 2023.10
+        company: Artificial Intelligence and Data Anaytics Lab, Myongi University
+        details: |
+            - Bullet point
+            - Bullet point
+
+
+educations:
+      title: Education
+      list:
+        - name: MSc in Electrical and Computer Engineering
+          start: 2024
+          end: 2024
+          organization: Sungkyunkwan University(SKKU) Security Lab
+          credentialid: 
+          credentialurl: www.google.com
+          credentialname: Security Lab
+          details: |
+            Advisor - Professor Hyoungshick Kim
+        - name: BSc in Data Technology (Software Convergence)
+          start: 2019
+          end: 2024
+          organization: Myongi University
+          credentialid: 
+          credentialurl: www.github.com
+          credentialname: 
+          details:  
+            
+
+certifications:
+      title: Certifications
+      list:
+        - name: CV Builder
+          start: 2020
+          end: 2021
+          organization: Microsoft
+          credentialid: 111-222
+          credentialurl: www.google.com
+          credentialname: Google
+          details: |
+            Details about cert. Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit.
+            Nullam eget orci purus. Nullam ultrices neque nibh.
+            Aenean fermentum, felis vulputate suscipit accumsan,
+            sem enim bibendum augue, sed convallis arcu lacus at dui.
+            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+            Praesent venenatis erat non augue suscipit consectetur.
+
+            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
+            fringilla vel. Ut euismod, sem sed vulputate venenatis,
+            justo diam viverra velit, sed rhoncus leo leo eu justo.
+            Suspendisse placerat risus ante, sed porta nisi blandit at.
+        - name: Git learning
+          start: 2019
+          end:
+          organization: Microsoft
+          credentialid: 111-222
+          credentialurl: www.github.com
+          credentialname: Github
+          details: |
+            Older certification. Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit.
+            Nullam eget orci purus. Nullam ultrices neque nibh.
+            Aenean fermentum, felis vulputate suscipit accumsan,
+            sem enim bibendum augue, sed convallis arcu lacus at dui.
+            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+            Praesent venenatis erat non augue suscipit consectetur.
+
+projects:
+    title: Projects
+    intro: >
+      You can list your side projects in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Velocity
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+oss:
+    title: OSS Contributions
+    intro: >
+      You can list your open source software contributions in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    contributions:
+      - title: Tempo
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+publications:
+    title: Publications
+    papers:
+      - title: The Art of Computer Programming
+        link: "#"
+        authors: Donald E. Knuth
+        conference: Addison-Wesley, 1968
+
+      - title: "Study of Adversarial Attack and Defense Deep Learning Model for Autonomous Driving"
+        link: "#"
+        authors: 김채현, 이진규, **정은**, 정재호, 이현정, 이규영
+        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+      - title: A syntax directed compiler for Algol 60
+        link: "#"
+        authors: Edgar T. Irons
+        conference: "Comm. ACM 4 (1961), 51–55"
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: Javascript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

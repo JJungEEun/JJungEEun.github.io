@@ -1,0 +1,20 @@
+{% assign research-interest= site.data.data.research-interest%}
+{% if research-interest%}
+<section class="section interest-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-heart fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ research-interest.title }}
+  </h2>
+  <hr>
+
+
+  <div class="summary">
+    {{ research-interest.summary | markdownify }}
+  </div><!--//summary-->
+    
+</section><!--//section-->
+{% endif %}
