@@ -32,7 +32,19 @@
     {% else %}
       <li>{{ publication.title }}</li>
     {% endif %}
-    <div class="publication-authors">{{ publication.authors }}</div>
+    <!-- <div class="publication-authors">{{ publication.authors }}</div> -->
+    <div class="publication-authors">
+      {% assign authors = publication.authors | split: ',' %}
+      {% for author in authors %}
+        {% if author contains '정은' or author contains 'Eun Jung' %}
+        <span style="background-color: rgba(244, 218, 210, 0.7); padding: 2px; text-decoration: underline;">{{ author }}</span>
+        {% else %}
+          {{ author }}
+        {% endif %}
+        {% unless forloop.last %}, {% endunless %}  <!-- Add comma between authors, except after the last one -->
+      {% endfor %}
+    </div>
+    
     <div class="publication-conference">{{ publication.conference }}</div>
   </div><!--//item-->
   {% endfor %}

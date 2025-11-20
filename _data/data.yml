@@ -19,12 +19,12 @@ sidebar:
     citizenship:
     # website: https://example.com/ # Include the full website URL, including "http://" or "https://".
     linkedin: wjddms0926
-    # xing: alandoe
+    # xing: 
     github: jjungeeun
     # telegram: # add your nickname without '@' sign
     # gitlab:
     # bitbucket:
-    # twitter: '@jekyllrb'
+    # twitter: 
     # stack-overflow: # Number/Username, e.g. 123456/alandoe
     # codewars:
     # goodreads: # Number-Username, e.g. 123456-alandoe
@@ -33,29 +33,18 @@ sidebar:
     # leetcode: # Pleas/e provide your LeetCode username.
     # pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
 
-    languages:
-      title: Languages
-      info:
-        - idiom: Korean
-          level: Native
+    # languages:
+    #   title: Languages
+    #   info:
+    #     - idiom: 
+    #       level: 
 
-        - idiom: English
-          level: Professional
+    # interests:
+    #   title: Interests
+    #   info:
+    #     - item: 
+    #       link:
 
-        - idiom: Chinese
-          level: basic
-
-    interests:
-      title: Interests
-      info:
-        - item: AI, Deep Learning
-          link:
-
-        - item: Security
-          link:
-
-        - item: 
-          link:
 
 career-profile:
     title: Career Profile
@@ -76,14 +65,7 @@ education:
       - degree: MSc in Electrical and Computer Engineering
         university: Sungkyunkwan University(SKKU)
         time: 2024 - ing
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+        details: 
       - degree: BSc in Data Technology (Software Convergence)
         university: Myongi University
         time: 2019 - 2024
@@ -97,15 +79,15 @@ education:
             - Data Analysis
             - Big Data Programming
 
-experiences:
-    title: Experiences
-    info:
-      - role: Undergraduate Research Trainees
-        time: 2023.01 ~ 2023.10
-        company: Artificial Intelligence and Data Anaytics Lab, Myongi University
-        details: |
-            - Bullet point
-            - Bullet point
+# experiences:
+#     title: Experiences
+#     info:
+#       - role: Undergraduate Research Trainees
+#         time: 2023.01 ~ 2023.10
+#         company: Artificial Intelligence and Data Anaytics Lab, Myongi University
+#         details: |
+#             - Bullet point
+#             - Bullet point
 
 
 educations:
@@ -116,7 +98,7 @@ educations:
           end: 2024
           organization: Sungkyunkwan University(SKKU) Security Lab
           credentialid: 
-          credentialurl: www.google.com
+          credentialurl: https://seclab.skku.edu
           credentialname: Security Lab
           details: |
             Advisor - Professor Hyoungshick Kim
@@ -125,10 +107,48 @@ educations:
           end: 2024
           organization: Myongi University
           credentialid: 
-          credentialurl: www.github.com
-          credentialname: 
-          details:  
-            
+          credentialurl: 
+          credentialname: ARTIFICIAL INTELLIGENCE AND DATA ANALYTICS LAB
+          details: |
+            Advisor - Professor Minsick Oh
+               
+awards:
+      title: Awards
+      list:
+        - name: MJU Creative SW Program Competition
+          start: 2023.12
+          end: 
+          organization: Myongji University
+          credentialid:
+          credentialurl:
+          credentialname: Grand Prize (1st place)
+          details: |
+            - Developed a large-scale political text analysis system by crawling ~80K party publications.
+            - Performed topic modeling (TF-IDF, LDA) to extract party-specific agendas and issue trends.
+            - Built the Transformer-based political bias classifier achieving 90.6% accuracy.
+            - Validated model generalization using external datasets such as newspaper editorials and presidential speeches.
+        - name: ACK 2022 Academic Conference
+          start: 2019.12
+          end: 
+          organization: Korea Information Processing Society
+          credentialid: 
+          credentialurl: 
+          credentialname:  Excellence Award (2nd place)
+          details: |
+            - Analyzed adversarial vulnerabilities of autonomous driving vision models using FGSM, PGD, etc.
+            - Compared limitations of baseline defense models (MagNet, Defense-GAN).
+            - Proposed a novel PCA-based defense model ‘DefPCA’ for robust real-time autonomous systems.
+        - name: Incheon Public Data Utilization Competition
+          start: 2022.12
+          end: 
+          organization: Incheon Metropolitan City
+          credentialurl: ""
+          credentialname: "Encouragement Award (3rd place)"
+          details: |
+            - Investigated operational issues of demand-responsive bus system (I-MOD) using public transport data.
+            - Identified low turnaround rate and user convenience as key bottlenecks.
+            - Suggested four optimization algorithms including demand-weight dynamic routes and AI-based origin recommendation.
+
 
 certifications:
       title: Certifications
@@ -171,91 +191,57 @@ certifications:
             Praesent felis nibh, eleifend id eleifend id, dictum id enim.
             Praesent venenatis erat non augue suscipit consectetur.
 
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+# projects:
+#     title: Projects
+#     intro: >
+#       You can list your side projects in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#     assignments:
+#       - title: Velocity
+#         link: "#hook"
+#         tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+#       - title: DevStudio
+#         link: "#"
+#         tagline: "A responsive website template designed to help web developers/designers market their services."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+#       - title: Tempo
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#       - title: Atom
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+#       - title: Delta
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
     title: Publications
     papers:
-      - title: The Art of Computer Programming
+      - title: "AdvCodeGen: Adversarial Code Generation via Large Language Models"
+        link: "https://www.icisc.org/static/program"
+        authors: Eun Jung, Jiacheng Li, Yonghwi Kwon, and Hyoungshick Kim
+        conference: ICISC 2025
+
+      - title: Insecure Coding Habits Die Hard. Can PEFT Really Turn LLMs into Secure Coders?
+        link: ""
+        authors: Sangjun Chae, Jangseop Choi, Taeyang Kim,  Eun Jung, Sanghak Oh, and Hyoungshick Kim
+        conference: CCS 2025 (poster)
+      
+      - title: Adversarial Attack against Deep Learning Based Vulnerability Detection
         link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+        authors: Eun Jung, Hyoungshick Kim
+        conference: Annual Conference of KIPS 2024 (ACK 2024)
 
-      - title: "Study of Adversarial Attack and Defense Deep Learning Model for Autonomous Driving"
-        link: "#"
-        authors: 김채현, 이진규, **정은**, 정재호, 이현정, 이규영
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: Study of Adversarial Attack and Defense Deep Learning Model for Autonomous Driving
+        link: "https://koreascience.kr/article/CFKO202233649311362.page"
+        authors: 김채현, 이진규, 정은, 정재호, 이현정, 이규영
+        conference: Annual Conference of KIPS 2022 (ASK 2022)
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
-
-skills:
-    title: Skills &amp; Proficiency
-
-    toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
-
+      
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

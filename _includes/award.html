@@ -1,0 +1,56 @@
+{% assign awards = site.data.data.awards %} {% if awards %}
+<section class="section awards-section">
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-graduation-cap fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ awards.title }}
+  </h2>
+  
+  <hr>
+
+  {% for awards in awards.list %}
+  <div class="item">
+    <div class="meta">
+      <div class="upper-row">
+        <h3 class="cert-title">{{ awards.name }}</h3>
+        <div class="time">
+          {{ awards.start }}
+        </div>
+      </div>
+      <!--//upper-row-->
+
+      <div class="second-upper-row">
+        <div class="cert-org">
+          {{ awards.credentialname }}  | {{ awards.organization }} 
+        </div>
+      </div>
+
+      <!-- <div class="second-upper-row">
+        <div class="cert-org">
+          {{ awards.organization }} {% if awards.credentialid %}
+          ({{ awards.credentialid }}) {% endif %}
+        </div>
+        {% if awards.credentialurl %}
+        <div class="cert-url">
+          <a
+            href="//{{ awards.credentialurl }}"
+            target="_blank"
+            rel="noreferrer nofollow noopener"
+            >{{ awards.credentialname }}</a
+          >
+        </div>
+        {% endif %}
+      </div>
+    </div> -->
+    <!--//meta-->
+
+    <div class="details">{{ awards.details | markdownify }}</div>
+  </div>
+  <br>
+  <!--//item-->
+  {% endfor %}
+</section>
+<!--//section-->
+{% endif %}
