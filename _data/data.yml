@@ -14,8 +14,8 @@ sidebar:
 
     # Sidebar links
     email: wjddms0926@gmail.com
-    phone: +82 010 9263 6909
-    timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
+    # phone: +82 010 9263 6909
+    # timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
     citizenship:
     # website: https://example.com/ # Include the full website URL, including "http://" or "https://".
     linkedin: wjddms0926
@@ -49,15 +49,17 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Hello! I’m Eun Jung, a Master’s student in the [Electrical and Computer Engineering department](https://ice.skku.edu/eng_ice/programs/departments/computer_intro.do) 
-      at [Sungkyunkwan University](https://www.skku.edu/eng/index.do), advised by Professor [Hyoungshick Kim](https://seclab.skku.edu/people/hyoungshick-kim/). 
-      I am interested in AI security.
+      I’m Eun Jung, a Master’s student in the [Electrical and Computer Engineering department](https://ice.skku.edu/eng_ice/programs/departments/computer_intro.do) at [Sungkyunkwan University](https://www.skku.edu/eng/index.do), advised by Professor [Hyoungshick Kim](https://seclab.skku.edu/people/hyoungshick-kim/). 
+      I received my Bachelor's degree in Data Technology (Software Convergence) from [Myongji University](https://www.mju.ac.kr/mjukr/index.do).
 
+      Previsouly, I served as a Visiting Researcher at the [University of Maryland](https://umd.edu), College Park, advised by Professor [Yongwhi Kwon](https://ece.umd.edu/clark/faculty/1845/Yonghwi-Kwon) at the the [University of Maryland Cybersecurity Center](https://cyber.umd.edu).
+  
 research-interest:
     title: Research Interest
     summary: |
-     My research focuses on the security of AI systems, with particular attention to vulnerabilities in deep learning models and large language models (LLMs). 
-     I am interested in adversarial attacks, aiming to improve the robustness and reliability of AI systems in real-world applications.
+            My research focuses on the security of AI systems, with particular **attention to vulnerabilities in deep learning models and large language models (LLMs)**. 
+            Particularly, I am interested in evaluating the reliability and robustness by diagnosing **'Shortcut Learning'** behaviors, where models rely  on superficial syntax rather than core semantics, using XAI-driven verification.
+            I also investigate the adversarial attacks by analyzing model vulnerabilities against perturbation-based adversarial attacks.
 
 education:
     title: Education
@@ -122,11 +124,11 @@ awards:
           credentialid:
           credentialurl:
           credentialname: Grand Prize (1st place)
-          details: |
-            - Developed a large-scale political text analysis system by crawling ~80K party publications.
-            - Performed topic modeling (TF-IDF, LDA) to extract party-specific agendas and issue trends.
-            - Built the Transformer-based political bias classifier achieving 90.6% accuracy.
-            - Validated model generalization using external datasets such as newspaper editorials and presidential speeches.
+          # details: |
+          #   - Developed a large-scale political text analysis system by crawling ~80K party publications.
+          #   - Performed topic modeling (TF-IDF, LDA) to extract party-specific agendas and issue trends.
+          #   - Built the Transformer-based political bias classifier achieving 90.6% accuracy.
+            # - Validated model generalization using external datasets such as newspaper editorials and presidential speeches.
         - name: ACK 2022 Academic Conference
           start: 2019.12
           end: 
@@ -134,20 +136,20 @@ awards:
           credentialid: 
           credentialurl: 
           credentialname:  Excellence Award (2nd place)
-          details: |
-            - Analyzed adversarial vulnerabilities of autonomous driving vision models using FGSM, PGD, etc.
-            - Compared limitations of baseline defense models (MagNet, Defense-GAN).
-            - Proposed a novel PCA-based defense model ‘DefPCA’ for robust real-time autonomous systems.
+        #   details: |
+        #     - Analyzed adversarial vulnerabilities of autonomous driving vision models using FGSM, PGD, etc.
+        #     - Compared limitations of baseline defense models (MagNet, Defense-GAN).
+        #     - Proposed a novel PCA-based defense model ‘DefPCA’ for robust real-time autonomous systems.
         - name: Incheon Public Data Utilization Competition
           start: 2022.12
           end: 
           organization: Incheon Metropolitan City
           credentialurl: ""
           credentialname: "Encouragement Award (3rd place)"
-          details: |
-            - Investigated operational issues of demand-responsive bus system (I-MOD) using public transport data.
-            - Identified low turnaround rate and user convenience as key bottlenecks.
-            - Suggested four optimization algorithms including demand-weight dynamic routes and AI-based origin recommendation.
+          # details: |
+          #   - Investigated operational issues of demand-responsive bus system (I-MOD) using public transport data.
+          #   - Identified low turnaround rate and user convenience as key bottlenecks.
+          #   - Suggested four optimization algorithms including demand-weight dynamic routes and AI-based origin recommendation.
 
 
 certifications:
@@ -225,22 +227,22 @@ publications:
       - title: "AdvCodeGen: Adversarial Code Generation via Large Language Models"
         link: "https://www.icisc.org/static/program"
         authors: Eun Jung, Jiacheng Li, Yonghwi Kwon, and Hyoungshick Kim
-        conference: ICISC 2025
+        conference: in Proc. of the 28th Annual Conference on Information Security and Cryptology
 
       - title: Insecure Coding Habits Die Hard. Can PEFT Really Turn LLMs into Secure Coders?
-        link: ""
+        link: "https://dl.acm.org/doi/10.1145/3719027.3760716"
         authors: Sangjun Chae, Jangseop Choi, Taeyang Kim,  Eun Jung, Sanghak Oh, and Hyoungshick Kim
-        conference: CCS 2025 (poster)
+        conference: in Proc. of the 32nd ACM Conference on Computer and Communications Security(Poster)
       
-      - title: Adversarial Attack against Deep Learning Based Vulnerability Detection
-        link: "#"
-        authors: Eun Jung, Hyoungshick Kim
-        conference: Annual Conference of KIPS 2024 (ACK 2024)
+      # - title: Adversarial Attack against Deep Learning Based Vulnerability Detection
+      #   link: "#"
+      #   authors: Eun Jung, Hyoungshick Kim
+      #   conference: Annual Conference of KIPS 2024 (ACK 2024)
 
-      - title: Study of Adversarial Attack and Defense Deep Learning Model for Autonomous Driving
-        link: "https://koreascience.kr/article/CFKO202233649311362.page"
-        authors: 김채현, 이진규, 정은, 정재호, 이현정, 이규영
-        conference: Annual Conference of KIPS 2022 (ASK 2022)
+      # - title: Study of Adversarial Attack and Defense Deep Learning Model for Autonomous Driving
+      #   link: "https://koreascience.kr/article/CFKO202233649311362.page"
+      #   authors: 김채현, 이진규, 정은, 정재호, 이현정, 이규영
+      #   conference: Annual Conference of KIPS 2022 (ASK 2022)
 
       
 footer: >
